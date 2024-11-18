@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Egipto</title>
+    <style>
+        .img-fluid {
+            transition: transform 0.5s ease; 
+        }
+
+        .img-fluid:hover {
+            transform: translateX(10px) translateY(-10px); /* Mueve la imagen ligeramente hacia la derecha y arriba */
+            cursor: pointer; 
+        }
+
+        .img-fluid:hover {
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+      
+  <!-- Barra de Navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Egipto</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./cultura.html">Cultura</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Lugares_Turisticos.html">Lugares Turísticos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./gastronomia.html">Gastronomia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Fauna_Flora.html">Fauna y Flora</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección Hero (imagen principal y texto introductorio) -->
+  <header class="hero bg-dark text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Bienvenidos a Egipto</h1>
+      <p class="lead">Descubre la maravilla de una civilización milenaria.</p>
+    </div>
+  </header>
+
+  <!-- Sección de Introducción -->
+  <section class="container my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Introducción a Egipto</h2>
+        <p>Egipto, oficialmente la República Árabe de Egipto, es un país ubicado en el noreste de África y el suroeste de Asia. Es conocido mundialmente por sus antiguas civilizaciones y monumentos impresionantes como las pirámides de Giza, la Gran Esfinge y el Valle de los Reyes.</p>
+        <p>La civilización egipcia, una de las más antiguas de la humanidad, floreció a lo largo del río Nilo, el cual ha sido vital para su desarrollo. A través de los siglos, Egipto ha sido un centro de poder, cultura y religión.</p>
+      </div>
+      <div class="col-md-6">
+        <img width="400px" src="./img/portada.jfif" class="img-fluid" alt="Egipto">
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Historia -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">Historia de Egipto</h2>
+      <p>Egipto es famoso por su historia que se remonta a más de 5,000 años. La antigua civilización egipcia es conocida por sus avances en arquitectura, astronomía, matemáticas y medicina. Los faraones gobernaron Egipto durante más de tres mil años, dejando un legado que aún perdura.</p>
+      <p>El periodo del Antiguo Egipto estuvo marcado por la construcción de las grandes pirámides, los templos monumentales, y una sociedad profundamente religiosa. En los siglos posteriores, Egipto fue conquistado por varias potencias extranjeras, incluidos los griegos y los romanos.</p>
+    </div>
+  </section>
+
+  <!-- Sección de Imágenes de Egipto -->
+  <section class="container my-5">
+    <h2 class="text-center">Imágenes de Egipto</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="./img/piramides.avif" class="img-fluid" alt="Pirámides de Giza">
+      </div>
+      <div class="col-md-4">
+        <img src="./img/esfinge.jpg" class="img-fluid" alt="Gran Esfinge">
+      </div>
+      <div class="col-md-4">
+        <img  src="./img/templo.jpg" class="img-fluid" alt="Templo de Abu Simbel">
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de Página -->
+  <footer class="bg-dark text-white text-center py-4">
+    <p>&copy; de chino y juan</p>
+  </footer>
+
+  <!-- Vinculación a Bootstrap JS y dependencias -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+    
+</body>
+</html>
